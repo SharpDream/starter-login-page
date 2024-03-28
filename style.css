@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.bg {
+  background-image: url(bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  position: relative;
+}
+
+.main-box {
+  height: 60vh;
+  width: 40vh;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  border: 2px solid black;
+  border-radius: 20px;
+  box-shadow: 2px 2px 5px black;
+}
+
+.title {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  font-weight: 900px;
+  font-size: 5vh;
+  text-align: center;
+}
+.email {
+  font-weight: bold;
+  position: absolute;
+  padding: 1vh 3vh;
+  margin: 14vh 0 0 2vh;
+  background: transparent;
+  box-shadow: 1px 1px 5px black;
+  
+}
+.pass {
+  font-weight: bold;
+  position: absolute;
+  padding: 1vh 3vh;
+  margin: 22vh 0 0 2vh;
+  background: transparent;
+  box-shadow: 1px 1px 5px black;
+}
+.terms {
+  position: absolute;
+  margin: 32vh 0 0 2vh;
+  font-weight: bold;
+}
+.save {
+  position: absolute;
+  font-weight: bold;
+  margin: 36vh 0 0 2vh;
+}
+#terms {
+  position: absolute;
+  margin: 33vh 0 0 34vh;
+}
+#save {
+  position: absolute;
+  margin: 36vh 0 0 34vh;
+}
+.transparent-button {
+  background-color: transparent;
+  border: 1px solid #000;
+  color: #000;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin: 43vh 0 0 12vh;
+  box-shadow: 1px 1px 5px black;
+}
+
+.transparent-button:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
